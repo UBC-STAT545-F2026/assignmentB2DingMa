@@ -1,2 +1,34 @@
-# assignmentB2DingMa
-STAT 545B Assignment B2: Making an R Package
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# DNA Complement Generator
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+This package provides an utility for complementing a DNA sequence with
+robust error handling and string cleaning.
+
+## Installation
+
+This package can be installed with:
+
+``` r
+# install.packages("pak")
+pak::pak("UBC-STAT545-F2026/assignmentB2DingMa")
+```
+
+## Example
+
+This is a basic example which shows you how to complement a simple DNA
+sequence:
+
+``` r
+library(assignmentB2DingMa)
+
+simple_seq <- "Atggccggcaacgtgaagaagagctctggg"
+
+complement_dna(simple_seq, upper = FALSE)
+#> [1] "taccggccgttgcacttcttctcgagaccc"
+```

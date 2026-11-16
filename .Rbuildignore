@@ -1,0 +1,6 @@
+^renv$
+^renv\.lock$
+^assignmentB2DingMa\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^LICENSE\.md$

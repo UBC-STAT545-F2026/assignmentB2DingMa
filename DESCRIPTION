@@ -1,0 +1,16 @@
+Package: assignmentB2DingMa
+Title: DNA Complement Generator
+Version: 0.1.0
+Authors@R: 
+    person("Ding", "Ma", , "dingma@student.ubc.ca", role = c("aut", "cre"))
+Description: This package provides an utility for complementing a DNA sequence with robust error handling and string cleaning.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+  stringr,
+  glue
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
